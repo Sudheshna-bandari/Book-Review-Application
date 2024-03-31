@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const searchButton = document.getElementById('searchButton');
+  searchButton.addEventListener('click', searchBooks);
+});
+
 async function searchBooks() {
   const searchInput = document.getElementById('searchInput').value;
   
